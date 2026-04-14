@@ -11,7 +11,7 @@ print(second)
 
 def function2(a: int, b: int, c: int)-> int:
     if a > b and a > c:
-        return a-b #When a is greater than b and c
+        return a-b #When a is greater than both b and c
     elif b > c:
         return b + c   #When a is less than b or c and b is greater than c
     else:
