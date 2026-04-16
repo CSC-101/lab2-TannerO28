@@ -1,7 +1,6 @@
 def checked_access(L:list[int], idx:int)->[int]:
     test= idx >=0 and idx < len(L) #Test is False on first call, and true on second call
-    if test: #This check is preventing test returning True/False
-        return L[idx]
+    if test: #Can't have index larger than the list, so checking for that
     else:
         return None
 
