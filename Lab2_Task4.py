@@ -35,5 +35,8 @@ def suprising(L: list[str], other:str)->list[str]:
 words = ["this", "is", "confusing", "code."]
 first = suprising(words, "Avoid")
 second = suprising(words, "such.")
+#Words is ['this', 'is', 'confusing', 'code.', 'AVOID', 'SUCH.']
+#First and second are the same at this point, just has two names
+#Function suprsing appends the "AVOID" in first call and then "SUCH." in second call
 print(first)
 print(second)
